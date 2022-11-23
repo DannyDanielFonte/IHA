@@ -1,0 +1,120 @@
+body{
+    max-width: 1000px;/*  ancho maximo*/
+    margin:0 auto;/* margenes */
+}
+header nav div a img{
+    width: 90px;
+}
+.clearfix{
+margin-top : 5px;
+margin-bottom: 5px;
+padding: 20px;
+background-color: rgb(166, 183, 2014);
+}
+
+/* sección 1 estilos */
+.seccionvideo{
+    width: 100%;
+    background-color: rgb(187, 220, 247);
+}
+.video{
+    margin: 20px;
+    width: 55%;     
+   }
+.texto{
+   /*  width: 30%; */
+    padding: 20px;
+    vertical-align: top;
+    font-size: medium  ;
+}
+article{
+    align-tracks:calc(50%);
+    width: 30%;
+    margin: 20px;
+    padding: 30px;
+    background-color: rgba(30, 160, 235, 0.61);
+}
+article h2{
+    border-bottom: 3px solid white;
+}
+.texto, .video{ /* se toman los datos del interior de la sección para que queden una al lado del otro*/
+
+    display: inline-block
+    
+}
+.boton{
+    text-align: center;
+    background-color: aqua;
+    padding: 11px;
+}
+.boton a{
+    text-decoration: none;
+    color: black;
+}
+.boton :hover{
+    background-color: antiquewhite;
+}
+
+.form{
+
+    background-color: rgb(166, 183, 214);
+    padding: 45px;
+    border: 2px;
+}
+/* articles  seccion 2 y 3*/
+section h2{
+    border-bottom: 3px solid white;
+    text-align: center;
+}
+section figure img{
+   width: 100%;
+  vertical-align: top;   
+    padding: 15px;
+}
+.seccion2{
+    background-color: azure;
+}
+
+.seccion3{
+    background-color: rgb(45, 110, 148);
+}
+
+
+/* pie de pagina */
+
+footer{
+    width: auto;
+    background-color: black;
+    color: white;
+    line-height: 10px;
+    padding: 10px;
+}
+.derecho, .redes{
+    display: inline-block
+}
+.derecho{
+    width: 30%;
+    text-align: center;
+    font-size: medium;
+    padding: 30px;
+    line-height: 20px;
+}
+.redes{
+    width: 30%;
+    padding: 20px;
+}
+footer a{
+        list-style-type: none;
+        display: list-item;
+        padding: 2px;
+        color: white;
+        text-decoration: none;
+        font-size: small;
+
+}
+footer a img{
+    width: 20px;
+}
+footer a img :hover{
+    background-color: rgba(104, 104, 104, 0.527);
+}
