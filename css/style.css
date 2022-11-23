@@ -1,0 +1,89 @@
+body{
+    max-width: 1000px;/*  ancho maximo*/
+    margin:0 auto;/* margenes */
+}
+header nav div a img{
+    width: 90px;
+}
+.clearfix{
+margin-top : 5px;
+margin-bottom: 5px;
+padding: 20px;
+background-color: rgb(166, 190, 206);
+}
+section div h2 {
+    padding: 10px;
+    font-size:45px ;
+    border-bottom: 1px;
+    border-color: black;
+}
+section div p{
+    padding: 10px;
+    text-align: justify;
+    font-size: 0,5cm;
+}
+.seccion2, .seccion3, .seccion4{
+    display: inline-flex;
+    width: 100%;
+    background-color: rgba(116, 168, 166, 0.767);
+}
+.card{
+    margin: 7px;
+    }
+.card-body{
+    background-color: rgb(146, 141, 141);
+}
+.card-text{
+    height: 270px;
+}
+section div div div div h5{
+    
+    font-size: medium;
+    text-align: center;
+}
+section div div div img{
+    width: 200px;
+    margin-top: 75px;
+}
+.quienes{
+    margin-bottom: 2px;
+}
+
+/* pie de pagina */
+
+footer{
+    width: auto;
+    background-color: black;
+    color: white;
+    line-height: 10px;
+    padding: 10px;
+}
+.derecho, .redes{
+    display: inline-block
+}
+.derecho{
+    width: 30%;
+    text-align: center;
+    font-size: medium;
+    padding: 30px;
+    line-height: 20px;
+}
+.redes{
+    width: 30%;
+    padding: 20px;
+}
+footer a{
+        list-style-type: none;
+        display: list-item;
+        padding: 2px;
+        color: white;
+        text-decoration: none;
+        font-size: small;
+
+}
+footer a img{
+    width: 20px;
+}
+footer a img :hover{
+    background-color: rgba(104, 104, 104, 0.527);
+}

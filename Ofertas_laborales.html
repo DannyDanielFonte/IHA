@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>IHA_LAB</title>
+    <link rel="shortcut icon" href="./ICONOS/LOGO_01.ico"> <!-- ICONO DE PESTAÑA -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/Ofertas.css">
+
+   <header>
+        <!-- barra de navegación -->
+        <nav class="navbar navbar-expand-lg bg-ligth">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html"> <img src="./ICONOS/LOGO_01.ico" alt=""></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Mas información</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropdown
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled">Disabled</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
+              </div>
+            </div>
+        </nav>
+        
+        <!-- carruesel de Imagenes -->
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true"><div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+              <img src="IMAGENES/04.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <img src="IMAGENES/05.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="IMAGENES/06.jpg" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+    </header>
+    
+    <!-- seccion 1 -->
+
+    <section class="seccionvideo">
+        <!-- sección 1 video articulo-->
+        <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/3NTUBb_0H90" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <article class="texto">
+        <h2>Primer video IHA</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates officiis quis corrupti. In, soluta necessitatibus! Exercitationem modi quisquam repellat similique maiores consequatur animi rem a, dolorem unde nulla qui magnam!</p>
+        <div class="boton"><!-- boton para mas información -->
+            <a href="#"><div>Más Info</div></a>
+        </div>
+    </article>
+    <section class="seccion2">
+        <!-- sección 2 img texto -->
+        <figure class="img-art">
+            <img src="./IMAGENES/02.jpg" alt="">
+            <div class="conte-art">
+                <h2>Calidad de Suelos</h2>
+                <p>Efectuamos pruebas acreditadas para determinar las características de peligrosidad en residuos, suelos, cortes de perforación, o cualquier material en general a partir de las pruebas CRETIP (corrosividad, reactividad, toxicidad, inflamabilidad y patogenicidad) TCLP, prueba Daphnia, análisis de eco-toxicidad y biodegradabilidad de los residuos, entre otros. Dicha caracterización sirve para identificar los residuos generados por nuestros clientes, como base para toma de decisiones en lo que tiene que ver con el transporte y el debido tratamiento de los residuos</p>
+            </div>
+        </figure>
+    </section>
+    <section class="seccion3">
+        <!-- sección 3 img texto -->
+        <figure class="img-art">
+            <img src="./IMAGENES/03.jpg" alt="">
+            <div class="conte-art"> <!-- se marca la divición de la sección dentro de la misma pag, para despues poder llamarla -->
+                <h2>Hidrobiologicos</h2>
+                <p>Efectuamos análisis y muestreos cuantitativos y cualitativos en aguas superficiales y marinas de comunidades hidrobiológicas, Realizamos informes de bioindicación de especies con análisis de índices de contaminación e índices ecológicos, así como de correlación con parámetros fisicoquímicos para determinar la calidad del agua tanto en sistemas loticos como lenticos.</p>
+            </div>
+        </figure>
+    </section>
+
+
+
+</Section>
+
+    <!-- seccion 3 -->
+  <section class="form">
+    <H3>Registrarme</H3>
+    <p>A continuacióon encontrara el formulario para inscripción</p>
+
+    <form class="row g-3">
+        <div class="col-md-6">
+          <label for="inputEmail4" class="form-label">Correo</label>
+          <input type="email" class="form-control" id="inputEmail4">
+        </div>
+        <div class="col-md-6">
+          <label for="inputPassword4" class="form-label">Contraseña</label>
+          <input type="password" class="form-control" id="inputPassword4">
+        </div>
+        <div class="col-12">
+          <label for="inputAddress" class="form-label">Dirección</label>
+          <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+        </div>
+        <div class="col-12">
+          <label for="Telefono" class="form-label">Teléfono</label>
+          <input type="number" class="form-control" id="telefono" placeholder="3## ### ####">
+        </div>
+        <div class="col-md-6">
+          <label for="inputCity" class="form-label">Ciudad</label>
+          <input type="text" class="form-control" id="inputCity">
+        </div>
+        <div class="col-md-4">
+          <label for="inputState" class="form-label">País</label>
+          <select id="inputState" class="form-select">
+            <option selected>Seleccione...</option>
+            <option>
+                Colombia
+            </option>
+            <option>
+                EEUU
+            </option>
+            <option>
+                España
+            </option>
+          </select>
+        </div>
+        <div class="col-md-2">
+          <label for="inputZip" class="form-label">Otra información</label>
+          <input type="text" class="form-control" id="inputZip">
+        </div>
+        <div class="col-12">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck">
+            <label class="form-check-label" for="gridCheck">
+              Autoriza cargar la información y ser administrada según la ley 1581.
+            </label>
+          </div>
+        </div>
+        <div class="col-12">
+          <button type="submit" class="btn btn-primary">Enviar</button>
+        </div>
+
+        <p> Recuerde diligenciarlo en su totalidad y dar la opción Enviar</p>
+
+      </form>
+
+</section>
+
+
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <he
+
+ <!-- pie de pagina -->
+<footer>
+  <div class="derecho">
+      <address> Derechos reservados, Daniel Fontecha (Coordinador de Proyectos IHA)</address>
+  </div>
+  <div class="redes"> <!-- div de redes solciales con identificador "redes" -->
+      <a href="#"><img src="./ICONOS/facebook.ico" alt=""> Instituto de Higiene Ambiental</a>
+      <a href="#"><img src="./ICONOS/linkedin.ico" alt="hola"> Instituto de Higiene Ambiental</a>
+      <a href="#"><img src="./ICONOS/instagram.ico" alt=""> Instituto de Higiene Ambiental</a>
+      <a href="./Ofertas_laborales.html"><img src="./ICONOS/trabajo.ico" alt=""> Mas información </a>
+
+  </div>
+</footer>    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  </body>
+</html>
